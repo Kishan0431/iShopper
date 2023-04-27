@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.topwear{
+    color: rgba(255, 123, 0, 0.897);
+    margin-left: 10px;
+    margin-top: 2%;
+    font-weight:bold;
+}
+.logo{
+    height:30px;
+}
+
