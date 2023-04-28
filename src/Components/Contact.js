@@ -40,7 +40,7 @@ const Contact = () => {
               Email address
             </label>
             <input
-            name="Email"
+              name="Email"
               type="email"
               class="form-control"
               autoComplete="off"
@@ -54,18 +54,29 @@ const Contact = () => {
               Elaborate Your concern
             </label>
             <textarea
-            name="message"
-            autoComplete="off"
-            required
+              name="message"
+              autoComplete="off"
+              required
               class="form-control"
               id="exampleFormControlTextarea1"
               rows="3"
             ></textarea>
           </div>
           <div className="d-grid gap-2">
-            <button type="submit" className="btn btn-warning my-4" value="send">Submit</button>
+            <button type="submit" className="btn btn-warning my-4" value="send">
+              Submit
+            </button>
           </div>
         </form>
+        <footer class="container">
+          <p class="float-end">
+            <a href="#">Back to top</a>
+          </p>
+          <p>
+            © 2022–2023 iShopper, Inc. · <a href="#">Privacy</a> ·{" "}
+            <a href="#">Terms</a>
+          </p>
+        </footer>
       </div>
     </>
   );

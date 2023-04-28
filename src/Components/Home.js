@@ -87,40 +87,39 @@ const Home = () => {
           <div class="col">
             <img
               class="img-fluid"
-              src="https://storage.cloudconvert.com/tasks/44eb585b-c746-4070-aef7-de2672b8cea1/1.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682684700&Signature=fkIlyEOMvI5NtbNBQ1j%2Bk6V22V0%3D&response-content-disposition=inline%3B%20filename%3D%221.jpg%22&response-content-type=image%2Fjpeg"
+              src="https://storage.cloudconvert.com/tasks/0a4534c5-3bc0-4db8-8c23-db8553b7e629/1.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682774246&Signature=s1eRAUAknMHSCcnA40IcJ9mcLfs%3D&response-content-disposition=inline%3B%20filename%3D%221.jpg%22&response-content-type=image%2Fjpeg"
               alt=""
             />
           </div>
           <div class="col">
             <img
               class="img-fluid"
-              src="https://storage.cloudconvert.com/tasks/2f3e8b3b-ead2-4060-b4a8-86f001d657f5/2.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682684734&Signature=FO5dDv5Qr7PFHbfVuqiKB3R%2FKOI%3D&response-content-disposition=inline%3B%20filename%3D%222.jpg%22&response-content-type=image%2Fjpeg"
+              src="https://storage.cloudconvert.com/tasks/0c018abc-3f24-4649-a0fa-5fcc529d83ab/11.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682774214&Signature=7KiC8NVVKDDVBvUDserDPzPYjL4%3D&response-content-disposition=inline%3B%20filename%3D%2211.jpg%22&response-content-type=image%2Fjpeg"
               alt=""
             />
           </div>
           <div class="col">
             <img
               class="img-fluid"
-              src="https://storage.cloudconvert.com/tasks/3e8578e7-5e90-47c4-91e0-760f33649a5d/5.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682684785&Signature=P%2BhdX0TBTCZzRrPoWQWK8PH0sgg%3D&response-content-disposition=inline%3B%20filename%3D%225.jpg%22&response-content-type=image%2Fjpeg"
+              src="https://storage.cloudconvert.com/tasks/c06d1881-2cc2-4189-8340-48dec19cbd24/4.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682774350&Signature=z7l6Zjg9mVyMsOTpHckGEa8pYXI%3D&response-content-disposition=inline%3B%20filename%3D%224.jpg%22&response-content-type=image%2Fjpeg"
               alt=""
             />
           </div>
           <div class="col">
             <img
               class="img-fluid"
-              src="https://storage.cloudconvert.com/tasks/13d6c274-001d-4ee3-8d46-63c42447d9b8/4.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682684812&Signature=6QWFZENQSm9WSRLSEeViSJuXEho%3D&response-content-disposition=inline%3B%20filename%3D%224.jpg%22&response-content-type=image%2Fjpeg"
+              src="https://storage.cloudconvert.com/tasks/1d2f48f3-4e8b-4758-abfd-013044a5f55d/5.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682774290&Signature=%2BwYpEvURa7sn9zlWJqpflNFQsHg%3D&response-content-disposition=inline%3B%20filename%3D%225.jpg%22&response-content-type=image%2Fjpeg"
               alt=""
             />
           </div>
           <div class="col">
             <img
               class="img-fluid"
-              src="https://storage.cloudconvert.com/tasks/f2e70a34-24da-4956-a48f-f5eb685d3cd1/6.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682684877&Signature=DdW%2FWU4lJO4T62lXKTu9GrVBm3A%3D&response-content-disposition=inline%3B%20filename%3D%226.jpg%22&response-content-type=image%2Fjpeg"
+              src="https://storage.cloudconvert.com/tasks/9520d284-c893-4c52-82d2-6b42bf20d46c/3.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682774312&Signature=7Nid3JDn4CYDsWy%2FMo2i36aY9%2Bk%3D&response-content-disposition=inline%3B%20filename%3D%223.jpg%22&response-content-type=image%2Fjpeg"
               alt=""
             />
           </div>
         </div>
-        
       </div>
       <h2 className="m-4 p-2">DEALS ON TOP BRANDS</h2>
       <div class="container-fluid">
@@ -161,9 +160,16 @@ const Home = () => {
             />
           </div>
         </div>
-        
+        <footer class="container">
+          <p class="float-end">
+            <a href="#">Back to top</a>
+          </p>
+          <p>
+            © 2022–2023 iShopper, Inc. · <a href="#">Privacy</a> ·{" "}
+            <a href="#">Terms</a>
+          </p>
+        </footer>
       </div>
-      
     </>
   );
 };
