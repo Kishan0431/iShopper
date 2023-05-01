@@ -12,3 +12,9 @@ body{
     height:30px;
 }
 
+.email{
+    color:rgb(255, 148, 48);
+    margin: auto;
+    padding:10px;
+    margin-left:7px;
+}
