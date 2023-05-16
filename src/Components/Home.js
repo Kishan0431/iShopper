@@ -1,15 +1,18 @@
 import React from "react";
 import Navbar from "./Navbar";
 
+
 const Home = () => {
+ 
+
   return (
     <>
       <Navbar />
-
       <div class="alert alert-warning alert-dismissible fade show" role="alert">
         <strong>Checkout new Outfits </strong>Best of ishopper Exclusive Brands{" "}
         <span class="badge rounded-pill text-bg-success">New</span>
         <button
+          title="Close"
           type="button"
           class="btn-close"
           data-bs-dismiss="alert"
@@ -87,35 +90,35 @@ const Home = () => {
           <div class="col">
             <img
               class="img-fluid"
-              src="https://storage.cloudconvert.com/tasks/0a4534c5-3bc0-4db8-8c23-db8553b7e629/1.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682774246&Signature=s1eRAUAknMHSCcnA40IcJ9mcLfs%3D&response-content-disposition=inline%3B%20filename%3D%221.jpg%22&response-content-type=image%2Fjpeg"
+              src="https://i.imgur.com/7sN7FZf.png"
               alt=""
             />
           </div>
           <div class="col">
             <img
               class="img-fluid"
-              src="https://storage.cloudconvert.com/tasks/0c018abc-3f24-4649-a0fa-5fcc529d83ab/11.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682774214&Signature=7KiC8NVVKDDVBvUDserDPzPYjL4%3D&response-content-disposition=inline%3B%20filename%3D%2211.jpg%22&response-content-type=image%2Fjpeg"
+              src="https://i.imgur.com/kvjCmht.png"
               alt=""
             />
           </div>
           <div class="col">
             <img
               class="img-fluid"
-              src="https://storage.cloudconvert.com/tasks/c06d1881-2cc2-4189-8340-48dec19cbd24/4.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682774350&Signature=z7l6Zjg9mVyMsOTpHckGEa8pYXI%3D&response-content-disposition=inline%3B%20filename%3D%224.jpg%22&response-content-type=image%2Fjpeg"
+              src="https://i.imgur.com/NISS0Bb.png"
               alt=""
             />
           </div>
           <div class="col">
             <img
               class="img-fluid"
-              src="https://storage.cloudconvert.com/tasks/1d2f48f3-4e8b-4758-abfd-013044a5f55d/5.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682774290&Signature=%2BwYpEvURa7sn9zlWJqpflNFQsHg%3D&response-content-disposition=inline%3B%20filename%3D%225.jpg%22&response-content-type=image%2Fjpeg"
+              src="https://i.imgur.com/TT7DwqD.png"
               alt=""
             />
           </div>
           <div class="col">
             <img
               class="img-fluid"
-              src="https://storage.cloudconvert.com/tasks/9520d284-c893-4c52-82d2-6b42bf20d46c/3.jpg?AWSAccessKeyId=cloudconvert-production&Expires=1682774312&Signature=7Nid3JDn4CYDsWy%2FMo2i36aY9%2Bk%3D&response-content-disposition=inline%3B%20filename%3D%223.jpg%22&response-content-type=image%2Fjpeg"
+              src="https://i.imgur.com/fEClPgu.png"
               alt=""
             />
           </div>
@@ -173,6 +176,7 @@ const Home = () => {
           </p>
         </footer>
       </div>
+      
     </>
   );
 };

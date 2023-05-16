@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Style/Home.module.css";
 import { useAuth0 } from "@auth0/auth0-react";
-
+import {Route } from "react-router-dom";
 const Navbar = () => {
   const { loginWithRedirect, logout, isAuthenticated, user } = useAuth0();
 
@@ -11,6 +11,7 @@ const Navbar = () => {
         <div class="container-fluid">
           <a href="/">
             <img
+              title="iShopper"
               className={style.logo}
               src="https://static.vecteezy.com/system/resources/previews/009/389/585/non_2x/orange-shopping-bag-icon-isolated-on-background-free-png.png"
               alt=""
