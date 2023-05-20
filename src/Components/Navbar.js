@@ -245,6 +245,7 @@ const Navbar = () => {
               <li></li>
             </ul>
           </div>
+          
         </div>
       </nav>
     </>

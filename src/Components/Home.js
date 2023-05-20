@@ -1,10 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
-
+import style from "./Style/Home.module.css";
 
 const Home = () => {
- 
-
   return (
     <>
       <Navbar />
@@ -89,6 +87,7 @@ const Home = () => {
         <div class="row">
           <div class="col">
             <img
+              id={style.Homeproduct}
               class="img-fluid"
               src="https://i.imgur.com/7sN7FZf.png"
               alt=""
@@ -96,6 +95,7 @@ const Home = () => {
           </div>
           <div class="col">
             <img
+              id={style.Homeproduct}
               class="img-fluid"
               src="https://i.imgur.com/kvjCmht.png"
               alt=""
@@ -103,6 +103,7 @@ const Home = () => {
           </div>
           <div class="col">
             <img
+              id={style.Homeproduct}
               class="img-fluid"
               src="https://i.imgur.com/NISS0Bb.png"
               alt=""
@@ -110,6 +111,7 @@ const Home = () => {
           </div>
           <div class="col">
             <img
+              id={style.Homeproduct}
               class="img-fluid"
               src="https://i.imgur.com/TT7DwqD.png"
               alt=""
@@ -117,6 +119,7 @@ const Home = () => {
           </div>
           <div class="col">
             <img
+              id={style.Homeproduct}
               class="img-fluid"
               src="https://i.imgur.com/fEClPgu.png"
               alt=""
@@ -129,6 +132,7 @@ const Home = () => {
         <div class="row">
           <div class="col">
             <img
+              id={style.Homeproduct}
               class="img-fluid"
               src="https://i.imgur.com/TKlOk09.png"
               alt=""
@@ -136,6 +140,7 @@ const Home = () => {
           </div>
           <div class="col">
             <img
+              id={style.Homeproduct}
               class="img-fluid"
               src="https://i.imgur.com/UAjV9jN.png"
               alt=""
@@ -143,6 +148,7 @@ const Home = () => {
           </div>
           <div class="col">
             <img
+              id={style.Homeproduct}
               class="img-fluid"
               src="https://i.imgur.com/rRXUNlC.png"
               alt=""
@@ -150,6 +156,7 @@ const Home = () => {
           </div>
           <div class="col">
             <img
+              id={style.Homeproduct}
               class="img-fluid"
               src="https://i.imgur.com/GQHfht1.png"
               alt=""
@@ -157,9 +164,10 @@ const Home = () => {
           </div>
           <div class="col">
             <img
+              id={style.Homeproduct}
               class="img-fluid"
               src="https://i.imgur.com/lxgTpPJ.png"
-              alt=""
+              alt="product"
             />
           </div>
         </div>
@@ -176,7 +184,6 @@ const Home = () => {
           </p>
         </footer>
       </div>
-      
     </>
   );
 };
